@@ -8,7 +8,6 @@
     text-align: center;
     border: none;
     padding: 10px 0;
-    
 }
 
 img {
@@ -113,4 +112,19 @@ img {
     -webkit-transition: all .25s;
     -moz-transition: all .25s;
     transition: all .25s;
+}
+
+.hover_filter_gray:hover {
+    opacity: .2;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+}
+
+.hover_scale3d:hover {
+    -webkit-transform: scale3d(1.05, 1.05, 1);
+    transform: scale3d(1.05, 1.05, 1);
 }
