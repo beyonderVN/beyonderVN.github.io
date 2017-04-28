@@ -135,10 +135,10 @@ img {
     transform: scale3d(1.2, 1.2, 1);
 }
 
-.no-padding {
-    padding: 0;
-}
-
 .overflow_hidden {
     overflow: hidden;
+}
+
+.no-padding {
+    padding: 0;
 }
