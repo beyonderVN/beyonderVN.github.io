@@ -125,6 +125,6 @@ img {
 }
 
 .hover_scale3d:hover {
-    -webkit-transform: scale3d(1.05, 1.05, 1);
-    transform: scale3d(1.05, 1.05, 1);
+    -webkit-transform: scale3d(1.2, 1.2, 1);
+    transform: scale3d(1.2, 1.2, 1);
 }
