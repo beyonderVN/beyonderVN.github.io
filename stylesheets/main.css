@@ -121,7 +121,7 @@ img {
 }
 
 .hover_filter_gray:hover {
-    opacity: .2;
+    /*opacity: .2;*/
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
     -ms-filter: grayscale(100%);
@@ -133,4 +133,8 @@ img {
 .hover_scale3d:hover {
     -webkit-transform: scale3d(1.2, 1.2, 1);
     transform: scale3d(1.2, 1.2, 1);
+}
+
+.no-padding {
+    padding: 0;
 }
