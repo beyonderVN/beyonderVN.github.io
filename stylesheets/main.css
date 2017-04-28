@@ -1,0 +1,116 @@
+.wrapper {}
+
+.max-width-1600 {
+    max-width: 1600px;
+}
+
+.fancybox-caption {
+    text-align: center;
+    border: none;
+    padding: 10px 0;
+    
+}
+
+img {
+    width: 100%;
+    height: initial;
+}
+
+.scrollbar {
+    overflow-y: scroll;
+}
+
+.style-3::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 3px transparent;
+    background-color: transparent;
+}
+
+.style-3::-webkit-scrollbar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 3px;
+    background-color: rgba(128, 128, 128, 0.2);
+    ;
+}
+
+.style-3::-webkit-scrollbar-thumb {
+    background-color: rgba(68, 68, 68, 0.76);
+}
+
+.top-panel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    min-width: 300px;
+    background-color: gray;
+    z-index: 9;
+}
+
+.top-panel .player-indicator {
+    top: 0;
+    color: white;
+    display: flex;
+    background: transparent!important;
+}
+
+.top-panel .player-indicator i,
+.top-panel .player-indicator .playb {
+    width: 14px;
+}
+
+.top-panel .player-indicator i:hover,
+.top-panel .player-indicator .playb:hover {
+    opacity: 0.7;
+}
+
+.top-panel .player-indicator i {
+    padding: 0px 4px 0px 4px;
+    line-height: 14px;
+    font-size: 14px;
+}
+
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.space-around {
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+}
+
+.shadow_inset {
+    -moz-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.hover_scale {
+    height: 375px;
+    -webkit-transition: all .25s;
+    -moz-transition: all .25s;
+    transition: all .25s;
+    overflow: hidden;
+}
+
+.hover_scale:hover {
+    overflow: auto;
+    margin: 0px -10px;
+    -webkit-box-shadow: 0 0 30px rgba(34, 44, 55, 0.5);
+    -moz-box-shadow: 0 0 30px rgba(34, 44, 55, 0.5);
+    box-shadow: 0 0 30px rgba(34, 44, 55, 0.5);
+    -webkit-transition: all .25s;
+    -moz-transition: all .25s;
+    transition: all .25s;
+}
