@@ -114,6 +114,12 @@ img {
     transition: all .25s;
 }
 
+.animation {
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+    transition: all .4s;
+}
+
 .hover_filter_gray:hover {
     opacity: .2;
     -webkit-filter: grayscale(100%);
