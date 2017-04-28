@@ -139,6 +139,6 @@ img {
     padding: 0;
 }
 
-.hidden {
+.overflow_hidden {
     overflow: hidden;
 }
