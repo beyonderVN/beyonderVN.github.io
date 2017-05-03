@@ -130,6 +130,12 @@ img {
     filter: gray;
 }
 
+.hover_filter_blur:hover {
+    -webkit-filter: blur(5px);
+    /* Safari 6.0 - 9.0 */
+    filter: blur(5px);
+}
+
 .hover_scale3d:hover {
     -webkit-transform: scale3d(1.2, 1.2, 1);
     transform: scale3d(1.2, 1.2, 1);
